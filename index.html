@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <!-- tailwind and daisykhala -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font-manrope  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- tailwind custom classes -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+.font-manrope{ 
+    font-family: 'Manrope', sans-serif;
+}
+</style>
+ 
+</head>
+<body class="font-manrope lg:w-[1200px] lg:m-auto">
+    <header> 
+        <!-- slideer section  -->
+        <div class="carousel pt-15">
+            <!-- slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <img class="w-[1170px] h-[ 550px;]" src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❯</a>
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img class="w-[1170px] h-[ 550px;]" src="Images/slidecup3.avif" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+              </div>
+            </div> 
+            
+              
+          </div>
+    </header>
+    <main>
+        <!-- Professional Hockeys Club -->
+        <section class="pt-20">
+            <div>
+                <h1 class="text-center text-4xl font-extrabold ">Professional Hockeys Club</h1> 
+            <p class="text-center text-base font-medium leading-6" >A friendly, inclusive club, offering hockey for all, <br> we welcome everyone from aspiring internationals to <br> social players or those who are new to the game.
+            </p>
+            </div>
+             <div class=" lg:flex row-auto pt-12">
+                <div class="items-center text-center">
+                    <div class="radial-progress  text-red-600 " style="--value:87; 2px;" role="progressbar">  <span style="color: black;"> 87%</span></div>
+                    <h4 class="text-xl  font-semibold"> Prayer Facility</h4>
+                    <p class="text-base  font-normal"> The essential things for a prayer is ensured here.</p>
+                </div>
+                <div class="items-center text-center">
+                    <div class="radial-progress  text-green-400" style="--value:95;" role="progressbar"><span style="color: black;"> 95%</span></div>
+                    <h4 class="text-xl  font-semibold"> Experienced Coach</h4>
+                    <p class="text-base  font-normal"> Our  all coaches are enough Experienced .</p>
+                </div>
+                <div class="items-center text-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span style="color: black;"> 90%</span></div>
+                    <h4 class="text-xl  font-semibold"> Senior Player</h4>
+                    <p class="text-base  font-normal"> 
+                        We provide extra bonus for senior players.</p>
+                </div>
+                <div class="items-center text-center">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span style="color: black;"> 80%</span></div>
+                    <h4 class="text-xl  font-semibold"> Training Ground</h4>
+                    <p class="text-base  font-normal"> You will find here a ground what the <br> hockey players  want.</p>
+                </div>
+             </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
