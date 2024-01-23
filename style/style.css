@@ -27,4 +27,41 @@
     width: 1170px;
     height: 450px;
     flex-shrink: 0;  
+ } 
+ .programr1{ 
+    background-image: url(../Images/2.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
  }
+ .programr2{ 
+    background-image: url(../Images/3.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+
+ }
+ .programr3{ 
+    background-image: url(../Images/4.png);
+    width: 365px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 12px;
+ }
+ @media screen and (max-width:576px) {
+     .program1,
+     .professionalprogram,
+     .program2{ display: none;}
+    
+ }
+
+ @media screen and (min-width:577px) {
+    .program1,
+    .professionalprogram,
+    .program2{ }
+    #programresponsive { display: none;}
+   
+}
