@@ -1,0 +1,30 @@
+
+.program1{ padding-top: 30px;
+    background-image: url(../Images/2.png);
+    width: 573px;
+    height: 338px;
+    flex-shrink: 0;    
+}
+.program2{ padding-top: 30px;
+    background-image: url(../Images/3.png);
+    width: 573px;
+    height: 338px;
+    flex-shrink: 0;    
+}
+.btnp { color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #FF4240;
+    background: #FF4240;
+
+}
+.professionalprogram{ padding-top: 30px;
+    background-image: url(../Images/4.png);
+    width: 1170px;
+    height: 450px;
+    flex-shrink: 0;  
+ }
