@@ -54,7 +54,8 @@
  @media screen and (max-width:576px) {
      .program1,
      .professionalprogram,
-     .program2{ display: none;}
+     .program2,
+     .ftr{ display: none;}
     
  }
 
@@ -62,6 +63,8 @@
     .program1,
     .professionalprogram,
     .program2{ }
-    #programresponsive { display: none;}
+    #programresponsive,
+    #footerresponsive 
+    { display: none;}
    
 }
