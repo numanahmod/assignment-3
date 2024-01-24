@@ -51,6 +51,44 @@
     flex-shrink: 0;
     border-radius: 12px;
  }
+  .formtttl{color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+    .placeholder{  padding-left: 20px;
+    width: 324px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    }
+     .masgbtn{display: flex;
+        width: 672px;
+        padding: 15px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+        border-radius: 12px;
+        border: 1px solid #FF4240;
+        background: #FF4240;
+        color: #FFF;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;       
+        line-height: normal;
+    }
+    .label{
+        color: #131318;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
  @media screen and (max-width:576px) {
      .program1,
      .professionalprogram,
