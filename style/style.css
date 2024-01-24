@@ -1,4 +1,40 @@
 
+
+.btnnav{color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;border-radius: 8px;
+    background: #FF4240;display: inline-flex;
+    padding: 15px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;} 
+    .btnnavm{
+        display: inline-flex;
+padding: 8px 17px;
+justify-content: center;
+align-items: center;
+gap: 10px;color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;border-radius: 8px;
+background: #FF4240;
+width: 150px;
+height: 50px;
+    }
+    .home{color: #FF4240;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;}
 .program1{ padding-top: 30px;
     background-image: url(../Images/2.png);
     width: 573px;
@@ -93,7 +129,8 @@
      .program1,
      .professionalprogram,
      .program2,
-     .ftr{ display: none;}
+     .ftr,
+     .laptop{ display: none;}
 
      .accordian1{ margin-top: 160px; 
         margin-bottom: 20px;
@@ -106,7 +143,8 @@
     .professionalprogram,
     .program2{ }
     #programresponsive,
-    #footerresponsive 
+    #footerresponsive,
+    .mobile 
     { display: none;}
    
 }
