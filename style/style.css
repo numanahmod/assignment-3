@@ -65,7 +65,7 @@
     background: rgba(19, 19, 24, 0.03);
     }
      .masgbtn{display: flex;
-        width: 672px;
+        
         padding: 15px 24px;
         justify-content: center;
         align-items: center;
@@ -94,6 +94,10 @@
      .professionalprogram,
      .program2,
      .ftr{ display: none;}
+
+     .accordian1{ margin-top: 160px; 
+        margin-bottom: 20px;
+   }
     
  }
 
